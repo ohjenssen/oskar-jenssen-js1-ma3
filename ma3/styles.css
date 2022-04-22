@@ -1,0 +1,34 @@
+div {
+    margin: 10px;
+}
+
+.section {
+    margin: 40px;
+}
+
+/* Styling borrowed from Javascript 1, module 2, slide 5 video */
+
+.error {
+    border: 1px solid darkred;
+    padding: 1rem;
+    color: darkred;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid darkred;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
